@@ -1,4 +1,4 @@
-Hi. Thanks for checking out our heat map generating program.
+Hi. Thanks for checking out our heat map generating program. This program was used in the paper "From Sports to Science: Using Basketball Analytics to Broaden the Appeal of Math and Science Among Youth" published pending.
 
 Please read this before getting started.
 
@@ -18,7 +18,7 @@ After about a minute a heatmap plot of your data will pop up. You can save the i
 
 Enjoy
 
-Benjamin D. Horne
+Benjamin D. Horne and
 John Drazen
 
 
