@@ -1,7 +1,6 @@
 Hi. Thanks for checking out our heat map generating program.
 
-Please read this file before getting started.
-
+Please read this before getting started.
 
 1. To use the heatmap generator you must first run install.bat (right-click and run as administrator)
 This will install everything you need!
