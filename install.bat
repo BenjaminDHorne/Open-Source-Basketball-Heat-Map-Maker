@@ -58,7 +58,7 @@ goto done
 :done
 echo
 echo
-echo You can know generate heat maps! 
+echo You can now generate heat maps! 
 echo Simply make a csv file name input.csv to keep track of makes and misses
 echo The format must be: Position Number, Made, Attempt
 echo The floor position cooresponding to the postion numbers can be found in floor_postions.png
