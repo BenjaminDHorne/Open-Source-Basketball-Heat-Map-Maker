@@ -16,7 +16,7 @@ rem install python 2.7
 
 rem cd %~dp0\install_files
 echo installing from: %~dp0install_files
-msiexec.exe /i .\install_files\python-2.7.12.msi /QN /L*V "C:\Temp\msilog.log"
+msiexec.exe /i "%~dp0\install_files\python-2.7.12.msi" /QN /L*V "C:\Temp\msilog.log"
 goto check
 
 rem 1) test if python.exe is in the path:
@@ -42,23 +42,23 @@ goto pip
 
 :PIP
 echo installing pip...
-c:\python27\python.exe .\install_files\get-pip.py
+c:\python27\python.exe "%~dp0\install_files\get-pip.py"
 echo upgrading pip...
 c:\python27\Scripts\pip.exe install --upgrade pip
 goto libs
 
 :LIBS
 echo installing libs
-c:\python27\Scripts\pip.exe install .\install_files\scipy-0.18.0-cp27-cp27m-win32.whl
-c:\python27\Scripts\pip.exe install .\install_files\numpy-1.11.1mkl-cp27-cp27m-win32.whl
-c:\python27\Scripts\pip.exe install .\install_files\Pillow-3.3.1-cp27-cp27m-win32.whl
-c:\python27\Scripts\pip.exe install -r .\install_files\libraries.txt
+c:\python27\Scripts\pip.exe install "%~dp0\install_files\scipy-0.18.0-cp27-cp27m-win32.whl"
+c:\python27\Scripts\pip.exe install "%~dp0\install_files\numpy-1.11.1mkl-cp27-cp27m-win32.whl"
+c:\python27\Scripts\pip.exe install "%~dp0\install_files\Pillow-3.3.1-cp27-cp27m-win32.whl"
+c:\python27\Scripts\pip.exe install -r "%~dp0\install_files\libraries.txt"
 goto done
 
 :done
 echo
 echo
-echo You can now generate heat maps! 
+echo You can know generate heat maps! 
 echo Simply make a csv file name input.csv to keep track of makes and misses
 echo The format must be: Position Number, Made, Attempt
 echo The floor position cooresponding to the postion numbers can be found in floor_postions.png
