@@ -1,4 +1,4 @@
-Hi. Thanks for checking out our heat map generating program. This program was used in the paper "From Sports to Science: Using Basketball Analytics to Broaden the Appeal of Math and Science Among Youth" published pending.
+This program was used in the paper "From Sports to Science: Using Basketball Analytics to Broaden the Appeal of Math and Science Among Youth" at MIT Sports Analytics Conference 2017. This version was used as a proof of concept, our online version is here: https://github.com/BenjaminDHorne/basketball_heatmaps 
 
 Please read this before getting started.
 
